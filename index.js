@@ -1,4 +1,4 @@
-//initialize count as 0
+// initialize count as 0
 //listen for clicks on increment button
 //increment count variable when button clicked
 //change the count-el in HTML to reflect the new count 
@@ -12,6 +12,10 @@ function increment() {              //A function which increases the count when 
     counter += 1
     countEl.textContent = counter
 }
+function increment5() {
+    counter += 5
+    countEl.textContent = counter
+}
 
 function save() {        //A function which saves the current count, displays it, and resets the counter 
     let countStr = counter + " - "
@@ -20,3 +24,5 @@ function save() {        //A function which saves the current count, displays it
     countEl.textContent = counter
         console.log(countStr)
 }
+
+
