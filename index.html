@@ -4,9 +4,25 @@
         <title>Chris's JavaScript Tests</title>
     </head>
 <body>
-    <h1>People entered:</h1>
+    <p>A way to count objects and reset the count.
+    </p>
+    <p>The HTML of this page was hand written aswell and can be viewed by pressing F12 and inspecting Elements. It calls my JavaScript code, index.js, 
+        as the script to handle all interactions on this page. The Javascript code can be viewed at:
+    </p>
+    <p>function save() {
+    let countStr = counter + " - "
+    saveEl.textContent += countStr
+    counter = 0;
+    countEl.textContent = counter
+        console.log(countStr)
+}
+
+</p>
+    <h1>People:</h1>
     <h2 id="count-el">0</h2>
     <button id="increment-btn" onclick="increment()">Increment</button>
+    <button id="save-btn" onclick="save()">Save</button>
+    <p id="save-el">Previous entries: </p>
     <script src = 'index.js'></script>
 </body>
 </html>
