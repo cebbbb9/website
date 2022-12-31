@@ -1,9 +1,10 @@
 body {
     background-image: url("https://wjc-dev.imgix.net/about-holocaust/assets/r6-eCZTG/756326-1024x741.jpg?auto=format&fit=crop&fm=jpg&h=480&lossless=true&q=60&w=750");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
 
 h1 {
