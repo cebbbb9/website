@@ -18,6 +18,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+ #msg2 {
+    background: white;
+    border: 1px solid black; 
+}
+
 button {
     border: 1px solid black;
     padding-top: 10px;
@@ -49,5 +54,8 @@ button {
 }
 
 #save-el {
-    color: orangered;
+    color: white;
+    background: black;
+    border: 1px solid white;
+    font-weight: bold; 
 }
