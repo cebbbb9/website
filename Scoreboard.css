@@ -1,0 +1,73 @@
+body {
+    background-color:gray;
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: blue;
+    margin: 0;
+    text-align: center;
+  }
+  
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#home, #away {
+    Font-family: 'Verdana';
+    Font-style: Bold;
+    Font-size: 40px;
+    line-height: 35.89px;
+
+}
+
+#homeEl, #awayEl {
+    background: #0a0001;
+    width: 180px;
+    height: 90px; 
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    font-weight: 400px;
+    margin: 20px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#add1Home-btn, #add2Home-btn, #add3Home-btn, #add1Away-btn,
+#add2Away-btn, #add3Away-btn {
+    background: darkblue
+}
+
+/* #error {
+    color: red;
+    font-weight: 200;
+}
+*/
