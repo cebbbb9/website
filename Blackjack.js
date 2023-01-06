@@ -9,7 +9,7 @@ let sumEl = document.getElementById('sum-el');
 let cardsEl = document.getElementById('cards-el');
 
 
-function getRandomCard() {
+function getRandomCard() {  
     let randomNumber =  (Math.floor(Math.random() * 13) + 1);
     if (randomNumber > 10) {
         return 10
